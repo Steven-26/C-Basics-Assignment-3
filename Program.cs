@@ -64,3 +64,14 @@ for (int i = 0; i < books.Length; i++)
 }
 
 #endregion
+#region Question 13
+// Using the same books array, use a while loop to print every book title.
+
+int index = 0;
+
+while (index < books.Length)
+{
+    Console.WriteLine(books[index]);
+    index++;
+}
+#endregion

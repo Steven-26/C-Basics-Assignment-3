@@ -36,6 +36,17 @@ sb.Replace("Book List", "Library");
 Console.WriteLine(sb);
 
 #endregion
+#region Question 5
+// Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code, Pages: 464" using the + operator.
+
+string bookTitle = "Clean Code";
+int bookPages = 464;
+
+string result = "Book: " + bookTitle + ", Pages: " + bookPages;
+
+Console.WriteLine(result);
+
+#endregion
 #region Question 8
 // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 300, otherwise prints "Short Book".
 

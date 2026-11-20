@@ -1,4 +1,14 @@
-﻿#region Question 8
+﻿#region Question 1
+// Declare string title = "clean code";. Call title.ToUpper() and store it in a new variable upperTitle. Print both title and upperTitle to show that title did not change.
+
+string titleQ1 = "clean code";
+string upperTitle = titleQ1.ToUpper();
+
+Console.WriteLine(titleQ1);
+Console.WriteLine(upperTitle);
+
+#endregion
+#region Question 8
 // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 300, otherwise prints "Short Book".
 
 int pages = 464;

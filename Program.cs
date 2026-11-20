@@ -47,6 +47,14 @@ string result = "Book: " + bookTitle + ", Pages: " + bookPages;
 Console.WriteLine(result);
 
 #endregion
+#region Question 6
+// Build the same sentence as above, but using string interpolation ($"...").
+
+string resultQ6 = $"Book: {bookTitle}, Pages: {bookPages}";
+
+Console.WriteLine(resultQ6);
+
+#endregion
 #region Question 8
 // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 300, otherwise prints "Short Book".
 

@@ -17,6 +17,17 @@ string title2 = "Clean Code";
 Console.WriteLine(object.ReferenceEquals(title1, title2));
 
 #endregion
+#region Question 3
+// Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same object. Print the final result.
+
+System.Text.StringBuilder sb = new System.Text.StringBuilder();
+
+sb.Append("Book List");
+sb.Append(" - Updated");
+
+Console.WriteLine(sb);
+
+#endregion
 #region Question 8
 // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 300, otherwise prints "Short Book".
 

@@ -8,6 +8,15 @@ Console.WriteLine(titleQ1);
 Console.WriteLine(upperTitle);
 
 #endregion
+#region Question 2
+// Declare two separate string variables, both set to the literal "Clean Code". Use ReferenceEquals() to check if they point to the same object in memory.
+
+string title1 = "Clean Code";
+string title2 = "Clean Code";
+
+Console.WriteLine(object.ReferenceEquals(title1, title2));
+
+#endregion
 #region Question 8
 // Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 300, otherwise prints "Short Book".
 
